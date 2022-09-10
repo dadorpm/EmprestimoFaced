@@ -30,19 +30,19 @@
       </form>
 
     </div>
-    <Cabecalho v-else titulo="Universidade Federal da Bahia" subtitulo="Faculdade de Educação" :nome="nome"
+    <Documento v-else titulo="Universidade Federal da Bahia" subtitulo="Faculdade de Educação" :nome="nome"
       :equipamento="equipamento" :siapecpf="siapecpf" :setor="setor" :origem="origem" />
   </div>
 </template>
 
 <script>
-import Cabecalho from './Cabecalho.vue'
+import Documento from './Documento.vue'
 import html2canvas from 'html2canvas'
 import jspdf from 'jspdf'
 export default {
   name: 'EmprestimoEquipamento',
   components: {
-    Cabecalho,
+    Documento,
 
   },
   data() {

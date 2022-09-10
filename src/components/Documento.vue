@@ -64,8 +64,6 @@
 </template>
 
 <script>
-import { numericLiteral } from '@babel/types';
-import { computed } from '@vue/reactivity';
 
 export default {
   name: 'EmprestimoEquipamento',
