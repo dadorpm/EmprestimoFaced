@@ -11,7 +11,7 @@
         </td>
       </tr>
     </table>
-    <h3 class="h3">Termo de Emprestimo do Equipamentos</h3>
+    <h3 class="h3">Termo de Emprestimo de Equipamentos</h3>
     <table class="dados">
       <tr>
         <td>
@@ -97,7 +97,7 @@ export default {
 .pricipal {}
 
 img {
-  width: 80px;
+  width: 70px;
   height: 40px;
   margin: 0 70px;
 }
