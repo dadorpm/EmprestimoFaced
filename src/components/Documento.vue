@@ -98,8 +98,8 @@ export default {
 
 img {
   width: 70px;
-  height: 40px;
-  margin: 0 70px;
+  height: 45px;
+  margin: 0 50px;
 }
 
 .dados {
